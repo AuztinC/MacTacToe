@@ -1,0 +1,31 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: brown;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.board{
+	display: flex;
+	flex-wrap: wrap;
+	width: 600px;
+	height: 600px;
+
+}
+
+.cell{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3em;
+	background-color: green;
+	width: calc(100%/3);
+	height: 200px;
+	border: 1px solid black;
+}
